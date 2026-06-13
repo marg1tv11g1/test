@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-cucumber-puppeteer-tests",
+  "version": "1.0.0",
+  "description": "Cucumber + Puppeteer UI tests for Margit Viigi portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "browsers:install": "puppeteer browsers install chrome",
+    "test": "cucumber-js",
+    "test:headed": "HEADLESS=false cucumber-js"
+  },
+  "keywords": [
+    "cucumber",
+    "puppeteer",
+    "ui-testing",
+    "portfolio"
+  ],
+  "author": "Margit Viigi",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "puppeteer": "^24.10.0"
+  }
+}
